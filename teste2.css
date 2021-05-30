@@ -1,0 +1,43 @@
+ body{
+   margin: 0 auto;
+   font-size:1em;
+   color:orange;
+}
+
+#senha {
+  border:0px solid;
+  left:10px;
+}
+div {
+ text-align: center;
+ width:100%;
+ position: relative; 
+ min-height: 100vh;
+}
+pai{
+  max-width:100%;
+  border:5px solid black;
+  background-position:top;
+  height:320px;
+}
+@media screen and (min-width:700px){
+  .pai {
+    border:3px solid;
+    height: 700px;
+    background-image:url( /storage/emulated/0/Download/Fundo.jpg);
+    width: 100%;
+    position: absolute;
+  }
+}
+@media screen and (min-width:1000px){
+  .pai {
+    border:5px solid red;
+    height:1000px;
+    
+  }
+}
+#centro{
+  width:27%;
+  margin: auto;
+  
+}
